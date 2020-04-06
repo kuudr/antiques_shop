@@ -6,100 +6,13 @@ body{
     margin: 0;
     margin-top: 0;
     padding: 0;
+    background-color: brown;
 }
-.header{
+.my-body{
+    background-color: brown;
+}
+/* .header{
     width: auto;
     height: 50px;
     background-color: rgb(15.68627451%, 14.509803922%, 16.078431373%);
-}
-
-.menu a{
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.menu li{
-    list-style-type: none;
-    position: relative;
-}
-.menu__list{
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-}
-.menu__list>li{
-    margin-right: 35px;
-}
-.menu__list>li:hover .sub-mebu__list{ 
-    display: block;
-}
-.menu__link{
-    color: khaki;
-}
-.sub-mebu__list{
-    width: 100%;
-    padding-left: 0;
-    display: none;
-    position: absolute;
-    top: 15px;
-    
-}
-.sub-mebu__list>li{
-    /* width: 100px; */
-    background-color: rgba(219, 216, 181, 0.712);
-    text-align: center;
-    padding-top: 20px;
-}
-.sub-mebu__list ul{
-    padding: 0;
-}
-/* Смена цвета при наведении на блок */
-.menu__list :hover {
-    color: rgb(138, 185, 255);
-    transition: 0.3s;
-}
-/* НАЧАЛО ОПИСЫВАНИЯ СТИЛЕЙ СЛАЙДЕРА */
-.slider{
-    position: relative;
-    padding: 0px 60px;
-}
-.slick-list{
-    overflow: hidden;
-}
-.slick-track{
-    display: flex;
-}
-.slider .slick-arrow{
-    position: absolute;
-    top: 50%;
-    z-index: 10;
-    margin: -30px 0px 0px 0px;
-    font-size: 0;
-    width: 30px;
-    height: 60px;
-}
-.slider .slick-arrow.slick-prev{
-    left: 0;
-    
-    background: url('../img/slider-arrow-left.png')  0 0 / 100% no-repeat;
-}
-.slider .slick-arrow.slick-next{
-    right: 0;
-    background: url('../img/slider-arrow-right.png')  0 0 / 100% no-repeat;
-}
-.slider .slick-dots{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.slider .slick-dots li{
-    list-style: none;
-    margin: 0 10px;
-
-}
-.slider .slick-dots button{
-    font-size: 0;
-    width: 10px;
-    height: 10px;
-    background-color: #fff; 
-    border-radius: 50%;
-}
+} */
