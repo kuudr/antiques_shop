@@ -218,6 +218,9 @@ left: 0;
         width: 0;
         height: 0;
     }
+    .menu__link{
+        color: white;
+    }
 }
 @media (max-width: 340px){
     .logo-star{
