@@ -2,8 +2,8 @@ $(document).ready(function(){
   $('.slider').slick({
     arrows:false,
     dots:true,
-    mobileFirst: true
-    // autoplay: true
+    mobileFirst: true,
+    autoplay: true
     // adaptiveHeight:true
   });
 });
