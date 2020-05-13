@@ -29,15 +29,13 @@ body{
 }
 /* CONTACTS */
 .contacts__top-header__bastion{
-    padding-top: 30px;
+    /* padding-top: 30px; */
     position: relative;
-    top: 0;
+    top: 51px;
     float: right;
     font-family: 'Arimo', sans-serif;
     /* border: solid 0.5px #fff; */
-    height: 60px;
-    margin-top: 21px;
-    margin-right: 10px;
+    /* height: 60px; */
     line-height: 0.5;
 }
 .contacts__top-header__bastion a{
@@ -303,10 +301,10 @@ left: 0;
         border-top: 0.1px dotted red;
     } 
     .menu__list{
-        background-color: rgba(95, 95, 95, 0.13);
+        background-color: rgba(85, 76, 76, 0.432);
     }
     .menu__list{
-        margin-top: 30px;
+        margin-top: 40px;
         /* height: 100%; */
     }
     .sub-mebu__list{
@@ -354,27 +352,29 @@ left: 0;
         margin-right: 4px;
     }
     .contacts__top-header__bastion{
-        margin-top: 0px;
-        margin-right: 4px;
+        position: absolute;
+        top: 71px;
+        right: 0;
+        font-family: 'Arimo', sans-serif;
+        /* border: solid 0.5px #fff; */
+        /* height: 60px; */
+        line-height: 0.5;
     }
     .contacts__top-header__bastion a{
         padding: 0;
     }
-    .contacts__top-header__bastion{
-        display: none;
-    }
     .logo-star{
         width: 180px;
-        height: 100px;
-        padding-top: 20px;
+        height: 110px;
+        padding-top: 30px;
     }
 }
 
 @media (max-width: 340px){
     .logo-star{
-        padding-top: 5px;
-        width: 150px;
-        height: 70px;
+        padding-top: 40px;
+        width: 157px;
+        height: 110px;
     }
 }
 
