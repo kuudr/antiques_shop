@@ -228,6 +228,19 @@ left: 0;
 .general__content__container__section img:hover{
     opacity: 0.60;
 }
+.general__content__container__aboutus{
+    background-color: rgba(255, 255, 240, 0.048);
+    font-size: 25px;
+    color: ivory;
+    text-align: justify;
+}
+.general__content__container__aboutus p{
+    margin: 20px;
+}
+.general__content__container__aboutus span{
+    font-weight: bold;
+    color: red;
+}
 .general__content__h1{
     text-align: center;
     margin-top: 60px;
@@ -277,6 +290,12 @@ left: 0;
         padding-right: 10px;
         padding-top: 10px;
     }
+    .general__content__container__aboutus{
+        margin-top: 40px;
+        width: 100%;
+        margin-left: 18px;
+        
+    }
     .menu ul{
         display: none;
         position: absolute;
@@ -301,7 +320,7 @@ left: 0;
         border-top: 0.1px dotted red;
     } 
     .menu__list{
-        background-color: rgba(85, 76, 76, 0.432);
+        background-color: rgba(105, 105, 105, 0.973);
     }
     .menu__list{
         margin-top: 40px;
