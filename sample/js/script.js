@@ -3,7 +3,7 @@ $(document).ready(function(){
     arrows:false,
     dots:true,
     mobileFirst: true,
-    autoplay: true
+    autoplay: false
     // adaptiveHeight:true
   });
 });

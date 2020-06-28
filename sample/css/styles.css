@@ -272,7 +272,22 @@ left: 0;
 .hovered__link:focus:after {
     width: 100%;
 }
-
+.footer-bastion{
+    /* position: absolute;
+    bottom: 0; */
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    background-color: rgba(53, 53, 53, 0.452);
+    height: 30px;
+    justify-content: center;
+    color: rgb(146, 146, 146);
+    margin-top: 40px;
+}
+.footer-bastion p{
+    margin: 0;
+    padding-top: 7px;
+}
 
 
 
