@@ -288,6 +288,34 @@ left: 0;
     margin: 0;
     padding-top: 7px;
 }
+.bastion__contacts{
+    width: 100%;
+    background-color: rgba(255, 255, 240, 0.048);
+    height: 800px;
+    margin-top: 30px;
+}
+.connect h1{
+    color: rgb(211, 211, 211);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+    font-style: bold;
+}
+.connect__contacts{
+    font-size: 30px;
+    color: rgb(180, 180, 180);
+    right: 40px;
+    border: 1px dotted rgb(66, 66, 66);
+    
+    
+}
+.connect__contacts__phone{
+    line-height: 2;
+}
+.yandex__map{
+    padding-top: 20px;
+}
+
 
 
 
@@ -358,6 +386,9 @@ left: 0;
     .slick-dots{
         margin: 0;
         padding: 0;
+    }
+    .bastion__contacts__text-and-pics{
+        margin-top: 40px;
     }
 }
 @media (max-width: 873px){
